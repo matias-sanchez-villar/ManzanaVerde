@@ -96,7 +96,7 @@ export default {
             let config = {
                 method: 'post',
                 maxBodyLength: Infinity,
-                url: 'https://127.0.0.1:8000/api/logout',
+                url: 'https://manzanaverde-production.up.railway.app/api/logout',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("authToken")}`
                 },

@@ -20,8 +20,6 @@
 
 <script>
 import axios from 'axios';
-import store from '@/store';
-
 export default {
     data() {
         return {
@@ -40,7 +38,7 @@ export default {
             let config = {
                 method: 'post',
                 maxBodyLength: Infinity,
-                url: 'https://127.0.0.1:8000/api/login',
+                url: 'https://manzanaverde-production.up.railway.app/api/login',
                 headers: {
                     'Content-Type': 'application/json'
                 },

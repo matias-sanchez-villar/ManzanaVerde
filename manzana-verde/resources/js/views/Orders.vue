@@ -60,7 +60,7 @@ export default {
             let config = {
                 method: 'post',
                 maxBodyLength: Infinity,
-                url: 'https://127.0.0.1:8000/api/orders',
+                url: 'https://manzanaverde-production.up.railway.app/api/orders',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("authToken")}`,
                     'Content-Type': 'application/json'
