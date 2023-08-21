@@ -42,7 +42,7 @@ export default {
         }
     },
     created() {
-        axios.get('http://127.0.0.1:8000/api/foods', {
+        axios.get('https://127.0.0.1:8000/api/foods', {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("authToken")}`
             }

@@ -55,7 +55,7 @@ export default {
             let config = {
                 method: 'post',
                 maxBodyLength: Infinity,
-                url: 'http://127.0.0.1:8000/api/register',
+                url: 'https://127.0.0.1:8000/api/register',
                 headers: {
                     'Content-Type': 'application/json'
                 },
