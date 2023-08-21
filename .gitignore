@@ -21,3 +21,16 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+# Ignorar directorio de node_modules
+node_modules/
+
+# Ignorar archivo package-lock.json
+package-lock.json
+
+# Ignorar archivos de configuración de npm
+npm-debug.log*
+
+# Ignorar carpeta de cache de npm
+.npm/
+
